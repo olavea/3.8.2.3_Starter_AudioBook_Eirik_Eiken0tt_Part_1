@@ -18,7 +18,7 @@ const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
-        file(relativePath: { eq: "99.mp3" }) {
+        file(relativePath: { eq: "Geir-g-3.mp3" }) {
           publicURL
         }
       }
