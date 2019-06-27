@@ -13,7 +13,7 @@ import SEO from "../components/seo"
 // // const linkToPrevPage = `/bookpage/${prevPage}`
 
 // var conCurrentPage = Number(currentPage)
-const nextPage = 1
+const nextPage = "1/1"
 
 const IndexPage = () => (
   <>
@@ -39,7 +39,7 @@ const IndexPage = () => (
       <li>
         {nextPage && (
           <Link to={`/${nextPage}`} rel="next">
-            {nextPage} →
+            1 →
           </Link>
         )}
       </li>
