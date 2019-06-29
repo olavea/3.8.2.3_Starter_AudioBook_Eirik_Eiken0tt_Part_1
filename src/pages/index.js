@@ -38,8 +38,8 @@ const IndexPage = () => (
       </li>
       <li>
         {nextPage && (
-          <Link to="https://silly-yonath-e0c045.netlify.com/2/2/" rel="next">
-            Del 2 →
+          <Link to={`/${nextPage}`} rel="next">
+            1 →
           </Link>
         )}
       </li>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Eventyret om Eirik Eikenøtt`,
+    title: `Eirik🐿 Eikenøtt🌰 på Eventyr`,
     description: `Eventyret om Eirik Eikenøtt`,
     author: `Beatrix Potter og Lillian Raae-Vea (4) og hennes Muntre Bande av venner og  @OlaHolstVea`,
   },
@@ -63,7 +63,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Eirik Eikenøtt`,
-        short_name: `eirik-e`,
+        short_name: `🐿🌰`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
